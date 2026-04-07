@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VRTrain | Simulador de Capacitación en Realidad Virtual</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-gray-950 text-white font-[Inter]">
+
+    <!-- NAVBAR -->
+    <nav class="fixed w-full bg-gray-900/80 backdrop-blur z-50 shadow-lg">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold text-cyan-400">VRTrain</h1>
+            <div class="space-x-6 hidden md:flex">
+                <a href="#about" class="hover:text-cyan-400">Proyecto</a>
+                <a href="#features" class="hover:text-cyan-400">Innovación</a>
+                <a href="#gallery" class="hover:text-cyan-400">Galería</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="h-screen flex items-center justify-center text-center px-6">
+        <div class="fade-in">
+            <h2 class="text-4xl md:text-6xl font-bold mb-6">
+                Entrena sin riesgo.<br>
+                Aprende en Realidad Virtual.
+            </h2>
+            <p class="text-gray-400 max-w-xl mx-auto mb-8">
+                VRTrain transforma la capacitación industrial mediante entornos inmersivos donde el error no cuesta
+                vidas ni dinero.
+            </p>
+            <a href="#about"
+                class="bg-cyan-500 hover:bg-cyan-400 text-black px-6 py-3 rounded-full font-semibold transition">
+                Conocer más
+            </a>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="py-20 px-6 max-w-6xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-10 items-center">
+
+            <div class="fade-in">
+                <h3 class="text-3xl font-bold mb-6">Sobre el Proyecto</h3>
+                <p class="text-gray-400 mb-4">
+                    VRTrain es un simulador de realidad virtual diseñado para capacitar trabajadores industriales en el
+                    uso de maquinaria sin riesgos reales.
+                </p>
+                <p class="text-gray-400 mb-4">
+                    Surge como solución a los métodos tradicionales de capacitación que generan costos elevados, miedo
+                    en los operarios y riesgos laborales.
+                </p>
+                <p class="text-gray-400">
+                    Con VRTrain, los usuarios pueden practicar múltiples veces en un entorno virtual realista, mejorando
+                    su aprendizaje, seguridad y desempeño.
+                </p>
+            </div>
+
+            <div class="fade-in">
+                <!-- IMAGEN PRINCIPAL -->
+                <!-- 👉 Reemplaza "img1.jpg" con tu imagen del cartel o simulador -->
+                <img src="img/img1.png" class="rounded-2xl shadow-lg" alt="VRTrain">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features" class="py-20 bg-gray-900 px-6">
+        <div class="max-w-6xl mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-12">Innovación del Proyecto</h3>
+
+            <div class="grid md:grid-cols-3 gap-8">
+
+                <div class="p-6 bg-gray-800 rounded-2xl hover:scale-105 transition fade-in">
+                    <h4 class="text-xl font-semibold mb-3 text-cyan-400">Seguridad Total</h4>
+                    <p class="text-gray-400">
+                        Entrenamiento sin riesgos físicos ni daños a maquinaria.
+                    </p>
+                </div>
+
+                <div class="p-6 bg-gray-800 rounded-2xl hover:scale-105 transition fade-in">
+                    <h4 class="text-xl font-semibold mb-3 text-cyan-400">Aprendizaje Inmersivo</h4>
+                    <p class="text-gray-400">
+                        Simulación realista que mejora la retención del conocimiento.
+                    </p>
+                </div>
+
+                <div class="p-6 bg-gray-800 rounded-2xl hover:scale-105 transition fade-in">
+                    <h4 class="text-xl font-semibold mb-3 text-cyan-400">Reducción de Costos</h4>
+                    <p class="text-gray-400">
+                        Disminuye tiempos de capacitación y evita pérdidas económicas.
+                    </p>
+                </div>
+
+                <div class="p-6 bg-gray-800 rounded-2xl hover:scale-105 transition fade-in">
+                    <h4 class="text-xl font-semibold mb-3 text-cyan-400">Repetición Ilimitada</h4>
+                    <p class="text-gray-400">
+                        Practica las veces necesarias hasta dominar el proceso.
+                    </p>
+                </div>
+
+                <div class="p-6 bg-gray-800 rounded-2xl hover:scale-105 transition fade-in">
+                    <h4 class="text-xl font-semibold mb-3 text-cyan-400">Tecnología 3D</h4>
+                    <p class="text-gray-400">
+                        Desarrollado con Unity y modelado en Blender.
+                    </p>
+                </div>
+
+                <div class="p-6 bg-gray-800 rounded-2xl hover:scale-105 transition fade-in">
+                    <h4 class="text-xl font-semibold mb-3 text-cyan-400">Resultados Comprobados</h4>
+                    <p class="text-gray-400">
+                        Reduce hasta 75% el tiempo de capacitación.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="py-20 px-6 max-w-6xl mx-auto">
+        <h3 class="text-3xl font-bold text-center mb-12">Galería</h3>
+
+        <div class="grid md:grid-cols-3 gap-6">
+
+            <!-- Cada imagen dentro de un contenedor -->
+            <div class="gallery-item fade-in">
+                <img src="img/img2.png" alt="">
+            </div>
+
+            <div class="gallery-item fade-in">
+                <img src="img/img3.png" alt="">
+            </div>
+
+            <div class="gallery-item fade-in">
+                <img src="img/img4.png" alt="">
+            </div>
+
+            <div class="gallery-item fade-in">
+                <img src="img/img5.png" alt="">
+            </div>
+
+            <div class="gallery-item fade-in">
+                <img src="img/img6.png" alt="">
+            </div>
+
+            <div class="gallery-item fade-in">
+                <img src="img/img7.png" alt="">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-20 bg-gradient-to-r from-cyan-500 to-blue-500 text-center px-6">
+        <h3 class="text-3xl font-bold mb-4">Transforma tu capacitación industrial</h3>
+        <p class="mb-6">Reduce riesgos, costos y mejora el aprendizaje con VRTrain</p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-900 py-8 text-center text-gray-400">
+        <p>© 2026 VRTrain - Proyecto de Realidad Virtual</p>
+        <p>Desarrollado por equipo UTL</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
